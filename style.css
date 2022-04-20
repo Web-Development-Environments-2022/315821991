@@ -1,7 +1,227 @@
+*{
+	padding: 0;
+}
+h1
+{
+	align-self: center;
+	font-family: Calibri;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+}
 #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	text-align: center;
+	align-self: center;
+	background-color: rgb(255, 215, 146);
+	z-index: 100;
+
 }
+
+#menu a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover
+{
+	color: rgb(150, 24, 133);
+}
+
+li
+{
+	display:inline;
+	font-family: Calibri;
+	text-align: center;
+	align-self: center;
+	font-size: 25px;
+	font-weight: bold;
+	width: 14%;
+	font-style: italic;
+	margin-left: 50px;
+}
+
+body {
+	background: url("https://c4.wallpaperflare.com/wallpaper/286/114/401/light-background-wallpaper-preview.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p
+{
+	align-self: center;
+	font-family: Calibri;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.gallery
+{
+	width: 80%;
+	margin: 100px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+
+}
+
+.gallery img
+{
+	width: 100%;
+	cursor: pointer;
+
+}
+
+.gallery img:hover
+{
+	transform: scale(0.8) rotate(-15deg);
+	border-radius: 20px;
+	box-shadow: 0 32px 75px rgba(91, 159, 196, 0.2);
+
+}
+
+.images-open
+{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+.images-open img
+{
+	width: 90%;
+	max-width: 500px;
+
+}
+
+.images-open span
+{
+	font-family: Calibri;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+#playList
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+ }
+
+ #facebookLike
+ {
+	text-align: center;
+ }
+
+ .FormContainer
+ {
+	justify-content: center;
+	text-align: center;
+	min-height: 450px;
+	width: 40%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(90deg, #ea995b, #ff72c0);
+	box-shadow: 0 0 1000px 0 rgba(218, 226, 230, 0.667);
+	border: 2px solid rgb(237, 239, 236);
+	border-radius: 10px;
+ }
+
+ .form
+ {
+	margin: 30px;
+	box-sizing: border-box;
+ }
+
+ .UserMail input
+ {
+	width: 300px;
+	height: 30px;
+	margin-top: 5%;
+	border: none;
+	background: transparent;
+	border-bottom: 3px solid #fff;
+	font-size: 20px;
+	font-family: Calibri;
+	text-align: center;
+ }
+
+ .username input
+ {
+	width: 300px;
+	height: 30px;
+	margin-top: 5%;
+	border: none;
+	background: transparent;
+	border-bottom: 3px solid #fff;
+	font-size: 20px;
+	font-family: Calibri;
+	text-align: center;
+ }
+
+ textarea
+ {
+	width: 400px;
+	height: 200px;
+	font-family: Calibri;
+	background: linear-gradient(90deg, #ea995b, #ff72c0);
+	box-shadow: 0 0 5px 4px white;
+	resize: none;
+	margin-top: 5%;
+	padding-top: 10px;
+	font-size: 18px;
+ }
+
+ .submitForm
+ {
+	margin-top: 5%;
+	position: relative;
+ }
+
+ .submitForm button
+ {
+	font-size: 20px;
+	font-family: Calibri;
+	width: 100px;
+	height: 40px;
+	border-radius: 50px;
+	background: linear-gradient(90deg, #ea995b, #ff72c0);
+	border: 3px solid #fff;
+ }
+
+ .submitForm button[type='submit']:active
+ {
+	border-color: black;
+ }

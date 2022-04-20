@@ -7,13 +7,25 @@
 <div id="menu">
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#playlist">My Favorite Song</a></li>
 <li><a href="#like">Like</a></li>
 <li><a href="#qrcoder">QR code</a></li>
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
 </div>
-		  
+<br/>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<img src=media/CarlAndBalloons.png width=300 height=400 class="images"/>
+<br/>
+<br/>
+<br/>
+<br/>
 <section id="about" class="section">
 <br/>
 <br/>
@@ -22,18 +34,24 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
+<h1><b>About Me</b></h1>
+<p>Hi everyone! <br/> my name is Carl, nice to meet you! <br/>
+  These days, It can be said that i'm a pretty old man. <br/>
+In my youth I was an adventure lover. <br/> <br/>
+After my wife Ellie passed away and the municipality wanted to take my home, <br/>
+ I started an amazing journey together with my home, <br/>
+  with the goal of fulfilling my shared dream with Ellie. <br/>
+  My hobbies - going out into nature, inflating balloons, meeting new people, playing the harmonica.<br/><br/>
+  A character I adored throughout my life - Charles Mantz.<br/>
+Charles Mantz is a famous researcher, who was accused of seeing a skeleton of a giant bird.<br/>
+Charles claimed that he discovered the bird in the waterfalls of paradise located in Venezuela. <br/>
+ Charles swored to return there and capture such a bird alive and prove that the skeleton was not fake.<br/>
+ Ellie also adored Charles.<br/><br/>
+ My favorite composer - Nathan Alterman (of course..)! <br/><br/>
+  My favorite movie - UP: <br/><br/>
+  <iframe width="370" height="295" src="https://www.youtube.com/embed/pkqzFUhGPJg">
+  </iframe>
+</p>
 <br/>
 </section>
 
@@ -44,18 +62,22 @@ about me
 <br/>
 <br/>
 <br/>
+<h1><b>My Photos Gallery</b></h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
+<div class="images-open" id="openedImgBox">
+  <img src="media/CarlAndBalloons.png" id="openedImg">
+  <span onclick="CloseImage()">X</span>
+</div>
+<div class="gallery">
+  <img src="media/CarlAndFriends3.jpg" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndEllie.jpg" onclick="OpenImage(this.src)">
+  <img src="media/OldCarlAndEllie.webp" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndRussell2.jpg" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndFriends2.jpg" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndRussell.png" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndFriends4.jpg" onclick="OpenImage(this.src)">
+  <img src="media/CarlAndFriends.webp" onclick="OpenImage(this.src)">
+</div>
 <br/>
 <br/>
 </section>
@@ -67,18 +89,12 @@ my photos
 <br/>
 <br/>
 <br/>
+<h1><b>My Favorite Song</b></h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
+<iframe width="370" height="295"
+src="https://www.youtube.com/embed/4hZkSmfcUDI" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
 <br/>
 <br/>
 </section>
@@ -90,40 +106,21 @@ my playlist
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
+<h1><b>Give Me A Like</b></h1>
+<div id="facebookLike">
+  <p>If you liked my website, I would love to get your Like...</p><br/>
+  <script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="LtMCH3Fd"></script>
+  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" 
+  data-layout="button" data-action="like" data-size="large" data-share="false"></div>
+</div>
 <br/>
 </section>
 
 <section id="qrcoder" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
+<h1><b>Scan My Code</b></h1>
 <br/>
 <br/>
 <br/>
@@ -136,17 +133,7 @@ scan my code
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
+<h1><b>Answers</b></h1>
 <br/>
 <br/>
 <br/>
@@ -156,25 +143,43 @@ ans
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
+<h1><b>Contact Me</b></h1>
+<div class="FormContainer">
+  <form action="https://formsubmit.co/naamaba133@gmail.com" enctype="text/plain" method="post">
+    <div class="form">
+      <div class="UserMail">
+        <input type="email" placeholder="Enter Your Email" required>
+      </div>
+      <div class="username">
+        <input type="text" placeholder="Enter Your Name" required>
+      </div>
+      <textarea placeholder="Your Message..."></textarea>
+      <div class="submitForm">
+        <button title="send" type="submit">Send</button>
+      </div>
+    </div>
+  </form>
+
+</div>
 <br/>
 <br/>
 </section>
 
+<script type="text/javascript">
+
+  var openedImgBox = document.getElementById("openedImgBox");
+  var openedImg = document.getElementById("openedImg");
+
+  function OpenImage(image){
+    openedImgBox.style.display = "flex";
+    openedImg.src = image;
+  }
+
+  function CloseImage()
+  {
+    openedImgBox.style.display = "none";
+  }
+</script>
 
 <script type="text/javascript">
 $(function(){
