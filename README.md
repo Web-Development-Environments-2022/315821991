@@ -1,1 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7677987&assignment_repo_type=AssignmentRepo)
+In this project I built a simple website about Carl, the famous grandfather from the movie "UP", using html, css and JS (including jQuery).
+
+At the site you will find more information about Carl, such as his history and hobbies, favorite songs, photos and more...
+
+Enjoy! :)
+
+URL (GitHub IO) - https://web-development-environments-2022.github.io/315821991/
+
+Personal Information:
+1. My Name - Naama Baruch
+2. User Name - Naama133
+3. ID - 315821991
