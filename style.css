@@ -266,3 +266,14 @@ iframe {
  {
 	border-color: black;
  }
+
+ #Copyright
+ {
+	 text-align: center;
+	 font-family: Calibri;
+	}
+
+#MyName
+{
+	font-size: 20px;
+}
