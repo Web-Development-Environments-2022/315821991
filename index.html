@@ -249,8 +249,19 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
     <div id="TextArea">
       <textarea id="textMessage" name="message" placeholder="Your Message..."></textarea>
     </div>
+    <select id="emojiSelection" onchange="EmojiAddition()">
+      <option value="&#128156">&#128156</option>
+      <option value="&#127881">&#127881</option>
+      <option value="&#129419">&#129419</option>
+      <option value="&#128571">&#128571</option>
+      <option value="&#128525">&#128525</option>
+      <option value="&#128517">&#128517</option>
+      <option value="&#128513">&#128513</option>
+      <option value="&#128175">&#128175</option>
+      <option value="&#128131">&#128131</option>
+      <option value="&#127882">&#127882</option>
+    </select><br/>
     <button id="submitBut" type="submit">Send</button>
-    <br>
 </form>
 <br/>
 <br/>
@@ -262,7 +273,7 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
 <br/>
 </section>
 <div id="Copyright">
-  <li id="MyName">© Naama Baruch!</li>
+  <li id="MyName">© Naama Baruch</li>
   <li>
     <a href="https://github.com/Naama133">
       <img src="media/GitHubSymbole.png" width="15px" height="15px"></a>
@@ -286,6 +297,14 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
   function CloseImage()
   {
     openedImgBox.style.display = "none";
+  }
+</script>
+
+<script type="text/javascript">
+  function EmojiAddition()
+  {
+    var selectedEmoji = document.getElementById("emojiSelection").value;
+    document.getElementById("textMessage").value += selectedEmoji;
   }
 </script>
 

@@ -240,6 +240,12 @@ iframe {
 	border: 3px solid #fff;
 }
 
+#emojiSelection
+{
+	margin: 5px;
+	position: relative;
+}
+
 #submitBut:active
 {
 	border-color: black;
