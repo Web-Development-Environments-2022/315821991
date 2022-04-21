@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.css">
 <script type="text/javascript" src="https://cdn.rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.js"></script>
 </head>
@@ -243,23 +243,17 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
 <br/>
 <br/>
 <h1><b>Contact Me</b></h1>
-<div class="FormContainer">
-<form action="https://formsubmit.co/naamaba133@gmail.com" method="POST">
+<form class="FormContainer" action="https://formsubmit.co/naamaba133@gmail.com" method="POST">
   <input type="hidden" name="_subject" value="New Email For Your Site!">
   <input type="hidden" name="_next" value="https://web-development-environments-2022.github.io/315821991/">
-  <div class="form">
-    <div class="UserMail">
-      <input type="email" name="email" placeholder="Enter Your Email" required>
+    <input id="UserMail" type="email" name="email" placeholder="Enter Your Email" required>
+    <input id="username" type="text" name="name" placeholder="Enter Your Name" required>
+    <div id="TextArea">
+      <textarea id="textMessage" name="message" placeholder="Your Message..."></textarea>
     </div>
-    <div class="username">
-      <input type="text" name="name" placeholder="Enter Your Name" required>
-    </div>
-    <br>
-    <textarea id="textMessage" name="message" placeholder="Your Message..."></textarea>
     <button id="submitBut" type="submit">Send</button>
-  </div>
+    <br>
 </form>
-</div>
 <br/>
 <br/>
 <br/>
