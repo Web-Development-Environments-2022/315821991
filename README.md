@@ -7,6 +7,6 @@ Enjoy! :)
 URL (GitHub IO) - https://web-development-environments-2022.github.io/315821991/
 
 Personal Information:
-1. My name - Naama Baruch
+1. My Name - Naama Baruch
 2. User Name - Naama133
 3. ID - 315821991
