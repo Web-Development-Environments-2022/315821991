@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
 <div id="menu">
@@ -244,7 +246,9 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
   <input type="hidden" name="_next" value="https://web-development-environments-2022.github.io/315821991/">
     <input id="UserMail" type="email" name="email" placeholder="Enter Your Email" required>
     <input id="username" type="text" name="name" placeholder="Enter Your Name" required>
-    <textarea placeholder="Your Message..."></textarea><br>
+    <div id="TextArea">
+      <textarea id="textMessage" name="message" placeholder="Your Message..."></textarea>
+    </div>
     <button id="submitBut" type="submit">Send</button>
     <br>
 </form>
@@ -258,7 +262,7 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
 <br/>
 </section>
 <div id="Copyright">
-  <li id="MyName">© Naama Baruch</li>
+  <li id="MyName">© Naama Baruch!</li>
   <li>
     <a href="https://github.com/Naama133">
       <img src="media/GitHubSymbole.png" width="15px" height="15px"></a>
