@@ -109,11 +109,6 @@ p
 
 }
 
-.textAreaClass
-{
-	font-family: Calibri;
-}
-
 .images-open
 {
 	width: 100%;
@@ -198,6 +193,8 @@ iframe {
 	box-shadow: 0 0 1000px 0 rgba(218, 226, 230, 0.667);
 	border: 2px solid rgb(237, 239, 236);
 	border-radius: 10px;
+	font-family: Calibri;
+
  }
 
  .form
@@ -232,18 +229,6 @@ iframe {
 	text-align: center;
  }
 
- textarea
- {
-	width: 400px;
-	height: 200px;
-	font-family: Calibri;
-	background: linear-gradient(90deg, #ea995b, #ff72c0);
-	box-shadow: 0 0 5px 4px white;
-	resize: none;
-	margin-top: 5%;
-	padding-top: 10px;
-	font-size: 18px;
- }
 
  .submitForm
  {
