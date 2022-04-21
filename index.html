@@ -2,6 +2,10 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.css">
+<script type="text/javascript" src="https://cdn.rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.js"></script>
 </head>
 <body>
 <div id="menu">
@@ -201,26 +205,44 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
 <br/>
 <br/>
 <h1><b>Contact Me</b></h1>
+<br/>
 <div class="FormContainer">
-  <form action="https://formsubmit.co/naamaba133@gmail.com" enctype="text/plain" method="post">
+  <form action="https://formsubmit.conaamaba133@gmail.com" enctype="text/plain" method="POST">
+    <input type="hidden" name="_next" value="https://web-development-environments-2022.github.io/315821991/">
+    <input type="hidden" name="_subject" value="New Email For Your Site!">
     <div class="form">
       <div class="UserMail">
-        <input type="email" placeholder="Enter Your Email">
+        <input type="email" name="email" placeholder="Enter Your Email" required>
       </div>
       <div class="username">
-        <input type="text" placeholder="Enter Your Name">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
       </div>
-      <textarea placeholder="Your Message..."></textarea>
+      <br><br>
+      <div class="textAreaClass">
+        <textarea id="textMessage" placeholder="Your Message..." name="message"></textarea>
+      </div>
       <div class="submitForm">
         <button title="send" type="submit">Send</button>
       </div>
     </div>
   </form>
-
 </div>
 <br/>
 <br/>
+<br/>
+<br/>
 </section>
+
+<script>
+  $(document).ready(function() {
+   $("#textMessage").emojioneArea({
+     tonesStyle:"radio",
+     search: false,
+     filtersPosition: "bottom",
+     tones: false
+   });
+ });
+</script>
 
 <script type="text/javascript">
 
