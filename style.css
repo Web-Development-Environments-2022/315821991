@@ -1,6 +1,11 @@
 *{
 	padding: 0;
 }
+
+html {
+	scroll-behavior: smooth;
+  }
+  
 h1
 {
 	align-self: center;
