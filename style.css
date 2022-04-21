@@ -201,10 +201,17 @@ iframe {
 	font-family: Calibri;
  }
 
- #TextArea
+ textarea
  {
-	margin: 30px;
-	box-sizing: border-box;
+	width: 400px;
+	height: 200px;
+	font-family: Calibri;
+	background: linear-gradient(90deg, #ea995b, #ff72c0);
+	box-shadow: 0 0 5px 4px white;
+	resize: none;
+	margin-top: 5%;
+	padding-top: 10px;
+	font-size: 18px;
  }
 
  #UserMail, #username
