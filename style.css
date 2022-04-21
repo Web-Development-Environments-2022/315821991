@@ -184,7 +184,7 @@ iframe {
  {
 	justify-content: center;
 	text-align: center;
-	min-height: 410px;
+	min-height: 330px;
 	width: 40%;
 	margin-top: 10px;
 	margin-left: auto;
@@ -194,7 +194,6 @@ iframe {
 	border: 2px solid rgb(237, 239, 236);
 	border-radius: 10px;
 	font-family: Calibri;
-
  }
 
  .form
@@ -203,7 +202,7 @@ iframe {
 	box-sizing: border-box;
  }
 
- .UserMail input
+ .UserMail input, .username input
  {
 	width: 300px;
 	height: 30px;
@@ -216,28 +215,10 @@ iframe {
 	text-align: center;
  }
 
- .username input
- {
-	width: 300px;
-	height: 30px;
-	margin-top: 5%;
-	border: none;
-	background: transparent;
-	border-bottom: 3px solid #fff;
-	font-size: 20px;
-	font-family: Calibri;
-	text-align: center;
- }
-
-
- .submitForm
- {
+#submitBut
+{
 	margin-top: 5%;
 	position: relative;
- }
-
- .submitForm button
- {
 	font-size: 20px;
 	font-family: Calibri;
 	width: 100px;
@@ -245,17 +226,17 @@ iframe {
 	border-radius: 50px;
 	background: linear-gradient(90deg, #ea995b, #ff72c0);
 	border: 3px solid #fff;
- }
+}
 
- .submitForm button[type='submit']:active
- {
+#submitBut:active
+{
 	border-color: black;
- }
+}
 
  #Copyright
- {
-	 text-align: center;
-	 font-family: Calibri;
+{
+	text-align: center;
+	font-family: Calibri;
 }
 
 #MyName

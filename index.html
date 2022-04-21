@@ -206,33 +206,26 @@ data-layout="button" data-action="like" data-size="large" data-share="false"></d
 <br/>
 <br/>
 <h1><b>Contact Me</b></h1>
+<div class="FormContainer">
 <form action="https://formsubmit.co/naamaba133@gmail.com" method="POST">
   <input type="hidden" name="_subject" value="New Email For Your Site!">
-  <input type="email" name="email" placeholder="Email" required>
   <input type="hidden" name="_next" value="https://web-development-environments-2022.github.io/315821991/">
-  <input type="text" name="message" placeholder="message" required>
-  <button type="submit">Send</button>
-</form>
-<br/>
-<div class="FormContainer">
-  <form action="https://formsubmit.co/naamaba133@gmail.com" enctype="text/plain" method="POST">
-    <input type="hidden" name="_next" value="https://web-development-environments-2022.github.io/315821991/">
-    <input type="hidden" name="_subject" value="New Email For Your Site!">
-    <div class="form">
-      <div class="UserMail">
-        <input type="email" name="email" placeholder="Enter Your Email" required>
-      </div>
-      <div class="username">
-        <input type="text" name="name" placeholder="Enter Your Name" required>
-      </div>
-      <br><br>
-      <textarea id="textMessage" placeholder="Your Message..." name="message"></textarea>
-      <div class="submitForm">
-        <button title="send" type="submit">Send</button>
-      </div>
+  <div class="form">
+    <div class="UserMail">
+      <input type="email" name="email" placeholder="Enter Your Email" required>
     </div>
-  </form>
+    <div class="username">
+      <input type="text" name="name" placeholder="Enter Your Name" required>
+    </div>
+    <br>
+    <div class="messageClass">
+      <input id="textMessage" type="text" name="message" placeholder="Your message..." required>
+    </div>
+    <button id="submitBut" type="submit">Send</button>
+  </div>
+</form>
 </div>
+<br/>
 <br/>
 <br/>
 <br/>
